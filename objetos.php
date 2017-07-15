@@ -1,18 +1,19 @@
-<pre>
-&lt;?php
-//cn
+<?php
+
+//codigoflow.net
+
 class sumar {
 
     public $x;
     public $y;
 
     function __construct($x, $y) {  //Constructor
-        $this-&gt;x = $x;
-        $this-&gt;y = $y;
+        $this->x = $x;
+        $this->y = $y;
     }
 
     function sum() {
-        return $this-&gt;x + $this-&gt;y;
+        return $this->x + $this->y;
     }
 
     function mult($u, $v) {
@@ -23,8 +24,6 @@ class sumar {
 
 $ob = new sumar(4, 4); //Intsancio un Objeto de la Clae tipo Suma
 
-echo $ob-&gt;sum(), &#039;&lt;br&gt;&#039;; //Obtengo la suma
-echo $ob-&gt;mult(3, 4);   //Obtengo el producto
-?&gt;
-
-</pre>
+echo $ob->sum(), '<br>'; //Obtengo la suma
+echo $ob->mult(3, 4);   //Obtengo el producto
+?>

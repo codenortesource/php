@@ -1,7 +1,6 @@
 <?php
 
-//cn
-
+//codigoflow.net
 $cadena = "todas las variables son importantes";
 //Devuelve la cadena completa
 echo substr($cadena, 0) . "< br >";

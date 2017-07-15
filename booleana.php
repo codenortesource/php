@@ -1,12 +1,10 @@
-<pre>
-&lt;?php
+<?php
 
-//cn
+//codenorte.com
 
 $variable_booleana = TRUE;
 if ($variable_booleana) {
-    echo (&quot;El resultado es VERDADERO&quot;);
+    echo ("El resultado es VERDADERO");
 }
 
-?&gt;
-</pre>
+?>

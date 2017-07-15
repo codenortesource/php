@@ -1,34 +1,30 @@
-<pre>
+<?php
 
-&lt;?php
-
-//cn
+//codenorte.com
 
 $dia = 4;
 switch ($dia) {
     case 1:
-        echo &quot;Lunes&quot;;
+        echo "Lunes";
         break;
     case 2:
-        echo &quot;Martes&quot;;
+        echo "Martes";
         break;
     case 3:
-        echo &quot;Miercoles&quot;;
+        echo "Miercoles";
         break;
     case 4:
-        echo &quot;Jueves&quot;;
+        echo "Jueves";
         break;
     case 5:
-        echo &quot;Viernes&quot;;
+        echo "Viernes";
         break;
     case 6:
-        echo &quot;Sabado&quot;;
+        echo "Sabado";
         break;
     case 7:
-        echo &quot;Domingo&quot;;
+        echo "Domingo";
         break;
 }
 
-?&gt;
-
-</pre>
+?>

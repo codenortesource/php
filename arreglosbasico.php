@@ -1,13 +1,11 @@
-<pre>
-&lt;?php
+<?php
 
-//cn
+//codenorte.com
 
-$artistas = array(&quot;florida&quot;, &quot;t pain&quot;, &quot;khalifa&quot;, &quot;d-12&quot;);
+$artistas = array("florida", "t pain", "khalifa", "d-12");
 foreach ($artistas as $i) {
-    echo $i . &#039;&lt; br &gt;&#039;;
+    echo $i . '< br >';
 }
-?&gt;
+?>
 
-</pre>
 

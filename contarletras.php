@@ -1,7 +1,6 @@
 <?php
 
-//cn
-
+//codenorte.com
 $contadorletraAdenaTexto = "php es un lenguaje de programación que se ejecuta en el servidor";
 $contadorletraA=0;
 $contadorletraB=0;

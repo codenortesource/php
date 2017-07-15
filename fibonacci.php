@@ -1,19 +1,17 @@
-<pre>
-&lt;?php
-//cn
+<?php
+//codenorte.com
 $a = 1;
 $b = 1;
 $s = 1;
 $tam = 10000;
 
-echo &quot;Serie de Fibonacci:&quot;;
+echo "Serie de Fibonacci:";
 
-while ($s &lt; $tam) {
-    echo $s . &#039;&lt;br&gt;&#039;;
+while ($s < $tam) {
+    echo $s . '<br>';
     $s = $a + $b;
     $a = $b;
     $b = $s;
 }
-?&gt;
+?>
 
-</pre>

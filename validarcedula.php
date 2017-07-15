@@ -1,22 +1,20 @@
-<pre>
+<?php
 
-&lt;?php
-
-//cn
+//codenorte.com
 
 function cedula($cedula) {
     $sum = 0;
     $sumi = 0;
-    for ($i = 0; $i &lt; strlen($cedula) - 2; $i++) {
+    for ($i = 0; $i < strlen($cedula) - 2; $i++) {
         if ($i % 2 == 0) {
             $sum += substr($cedula, $i + 1, 1);
         }
     }
     $j = 0;
-    while ($j &lt; strlen($cedula) - 1) {
+    while ($j < strlen($cedula) - 1) {
         $b = substr($cedula, $j, 1);
         $b = $b * 2;
-        if ($b &gt; 9) {
+        if ($b > 9) {
             $b = $b - 9;
         }
         $sumi += $b;
@@ -32,14 +30,12 @@ function cedula($cedula) {
     }
 }
 
-$e = &quot;1001968310&quot;;
-$d = &quot;1002205980&quot;;
-$e = &quot;1003887492&quot;;
+$e = "1001968310";
+$d = "1002205980";
+$e = "1003887492";
 
-echo &quot;VALOR &quot; + cedula($e) . &#039;&lt;br&gt;&#039;;
-echo &quot;VALOR &quot; + cedula($d) . &#039;&lt;br&gt;&#039;;
-echo &quot;VALOR &quot; + cedula($e) . &#039;&lt;br&gt;&#039;;
+echo "VALOR " + cedula($e) . '<br>';
+echo "VALOR " + cedula($d) . '<br>';
+echo "VALOR " + cedula($e) . '<br>';
 
-?&gt;
-
-</pre>
+?>
